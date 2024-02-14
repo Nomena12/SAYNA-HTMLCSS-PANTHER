@@ -1,0 +1,9 @@
+/*css specifique a certains endroit */
+body{
+    background-image: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/arrière_plan.png);
+    color: white;
+}
+
+footer{
+    background-image: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/back_footer.png);
+}
