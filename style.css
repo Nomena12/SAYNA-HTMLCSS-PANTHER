@@ -11,3 +11,26 @@ footer{
 .formulaire{
     background-image: url(ASSETS/Illustrations\ +\ Logo/Accueil/Pantherhome7.png);
 }
+
+/*css du barre de nav*/
+
+nav ul {
+    border: 2px solid white;
+    margin-right: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav li {
+    flex: 1;
+    list-style-type: none;
+}
+
+nav{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
