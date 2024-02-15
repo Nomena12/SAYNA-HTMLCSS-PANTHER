@@ -364,7 +364,7 @@ form button{
 }
 
 form button:hover{
-    text-shadow: 0px 0px 20px #021740;
+   background-color: #021740;
 }
 
 
@@ -488,3 +488,137 @@ section{
     height: 600px;
     
 }
+
+/*css DU FICHIER ENIGME */
+
+.e-in2 h1 {
+    font-family: 'BEYNO';
+    padding-top: 100px;
+}
+
+.e-out1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.e-in1{
+   
+    height: 700px;
+    width: 700px;
+    margin-left: 50px;
+}
+
+
+
+
+.e-in3{
+
+    background-image: url(ASSETS/Illustrations\ +\ Logo/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height:350px ;
+   width:600px ;
+   margin-top: 150px;
+   position: relative;
+}
+
+.e-in4{
+    
+   position: absolute;
+   width: 400px;
+   top:120px ;
+   left:100px ;
+}
+
+
+img[alt="Pantherenigme1"]{
+    height: 100%;
+    width: 100%; 
+    
+}
+
+.e-out2 {
+    
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+
+.alpha em {
+    font-family:'WakandaForever' ;
+}
+
+q{
+    color:#9E91B7;
+}
+
+.e-in7{
+    background-image: url(ASSETS/Illustrations\ +\ Logo/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px ;
+   width:600px ;
+   margin-top: 150px;
+   position: relative;
+}
+
+.e-in6{
+    
+    height: 100px;
+    width: 440px; 
+    position: absolute;
+    top:120px ;
+    left: 100px;
+    text-align: center;
+}
+
+.e-in8+p{
+    font-size: 14px;
+}
+
+.e-in8 p:nth-of-type(2){
+    font-size: 13px;
+}
+
+
+.e-in8{
+    
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.e-in9{
+    
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.e-in9 input{
+  
+        width: 420px;
+        height: 36px;
+        border-radius: 38px;
+        padding-left: 15px;
+        margin: 0px 0px 40px 0px;
+        background-color: rgb(2, 23, 64,0.1);
+        color: #F2CEF2;
+    }
+
+    .e-in9 p{
+        margin-bottom: 0px;
+    }
+    
+.e-in9 button{
+    width:154px ;
+        height:44px ;
+        border-radius:38px ;
+        margin-left: 150px;
+}
+
+.e-in9 button:hover{
+    background-color: #F2CEF2;
+}
+
+
+  
