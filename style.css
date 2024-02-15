@@ -70,7 +70,7 @@ footer{
 /*css du barre de nav*/
 
 nav ul {
-    border: 2px solid white;
+   
     margin-right: 50px;
     width: 350px;
     display: flex;
@@ -86,7 +86,7 @@ nav li {
 
 nav{
     font-family: 'BEYNO';
-    border: 2px solid white;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -98,6 +98,18 @@ nav{
     position: sticky;
     top: 0;
 }
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #3D2DA6;
+}
+
+/*FICHIER ACCUEIL*/
 /*css du hero */
 
 .hero {
@@ -181,36 +193,47 @@ img[alt="Pantherhome4"]{
 }
 
 section {
-    border: 2px solid white;
+    
+    width: 600px;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
 }
 
 aside {
-    border: 2px solid white;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 1100px;
 }
 
 .inout{
     flex: 2 1;
+    margin-bottom: 40px;
 }
 
 .ptr5{
-    border: 2px solid white;
-    height:400px;
+  
+    height:300px;
+   width: 250px;
+
     
 }
 
 
 img[alt="Pantherhome5"]{
-    height: 100%;
+    height: 400px;
     width: 100%;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
 }
 
 .ptr6{
-    border: 2px solid white;
-    height:400px ;
-    width: 160px;
+   
+    height:300px ;
+    width: 350px;
     
 }
 
@@ -220,13 +243,40 @@ img[alt="Pantherhome6"]{
 }
 
 .card2 {
-    border: 5px solid rebeccapurple;
+  
     display: flex;
     flex-direction: column;
-    height: 800px;
-    width: 400px;
+    height: 600px;
+    width: 350px;
     margin-bottom: 40px;
+    border-radius: 10px;
     background:linear-gradient( to bottom ,rgba(210, 237, 255, 0.8),rgba(210, 237, 255 )10%,rgb(255,255,255))  ;
+
+}
+
+.descri1,.descri{
+    flex: 2 1;
+}
+
+.descri1{
+  
+  height: 400px;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: justify;
+}
+
+
+
+.descri{
+    color: #021740;
+    padding-bottom: 300px;
+   
+}
+
+.descri span {
+    color: #9E91B7;
+    margin: 40px;
 }
 
 .inin {
@@ -238,10 +288,11 @@ img[alt="Pantherhome6"]{
 
 aside h3 {
     text-align: center;
+    margin-top: 0px;
 }
 
 .inin2 {
-    border: 2px solid black;
+    
     text-align: center;
     width: 90px;
     height: 30px;
@@ -251,8 +302,70 @@ aside h3 {
     
 }
 
+/*css formulaire */
+
+.formulaire{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 700px;
+    padding-top: 300px;
+}
 
 
+form{
+    
+    border-radius: 150px;
+    height: 500px;
+    width: 800px;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 10px;
+    background: linear-gradient(to bottom , rgb(255,255,255),rgb(218, 217, 217, 0.9)70%,rgba(218, 217, 217, 0.9));
+}
+
+ form h1, form p {
+    font-family: 'Cantarell-Bold';
+}
+
+form p{
+    font-size: 14px;
+    color: black;
+}
+
+form h1{
+    font-size: 30px;
+    color: black;
+    
+}
+
+form input {
+    width: 420px;
+    height: 36px;
+    border-radius: 38px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+form textarea{
+    width:420px ;
+    height:150px ;
+    border-radius:38px ;
+    padding:20px 0 0 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+form button{
+    width:154px ;
+    height:44px ;
+    border-radius:38px ;
+}
+
+form button:hover{
+    text-shadow: 0px 0px 20px #021740;
+}
 
 
 
@@ -302,3 +415,76 @@ img[alt="footer2"]{
    left: 250px;
 
 }  
+
+
+/*FICHIER WAKANDA */
+
+.hero2 {
+    
+    position: relative;
+    
+   
+}
+
+img[alt="Pantherwakanda2"]{
+    height: 100%;
+    width: 100%;
+}
+
+img[alt="Pantherwakanda1"]{
+    height: 100%;
+    width: 100%;
+}
+
+.hero2 h1{
+    font-family: 'BEYNO';
+}
+
+.hero2 h2{
+    font-family: 'WakandaForever' ;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+}
+
+.w-in1 {
+   
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.w-out2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    position: absolute;
+    top: 0px;
+}
+
+.w-out1{
+    position: relative;
+    height: 1500px;
+}
+
+.w-in2{
+   
+    width: 600px;
+    height: 1400px;
+}
+
+section{
+    
+    width: 550px;
+    height: 1400px;
+    line-height: 15px;
+}
+
+
+
+.tigre{
+    
+    height: 600px;
+    
+}
