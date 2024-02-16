@@ -152,6 +152,7 @@ margin-left: 100px;
 }
 
 .bp2{
+   
     height: 600px;
 }
 
@@ -382,6 +383,7 @@ form{
     padding-top: 30px;
     line-height: 10px;
     background: linear-gradient(to bottom , rgb(255,255,255),rgb(218, 217, 217, 0.9)70%,rgba(218, 217, 217, 0.9));
+    position: relative;
 }
 
  form h1, form p {
@@ -426,6 +428,51 @@ form button:hover{
    background-color: #021740;
 }
 
+.modal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.content {
+    position: absolute;
+    background: white;
+    height: 400px;
+    width: 800px;
+    border-radius: 38px;
+    padding: 1em 2em;
+    padding-top: 200px;
+    
+}
+
+.modal:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.close-box {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.modal h1, .modal p {
+    font-family: 'Cantarell-Bold';
+    font-size: xx-large;
+}
 
 
 /*css layout du footer */
@@ -492,8 +539,6 @@ img[alt="footer2"]{
     text-decoration: underline;
     color: white;
 }
-
-
 
 
 /*FICHIER WAKANDA */
