@@ -85,15 +85,14 @@ nav li {
 }
 
 nav{
-    font-family: 'BEYNO';
-    
+    font-family: 'BEYNO'; 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
     padding-top: 20px;
     padding-left: 20px;
-    margin-left:50px ;
+    margin-left:100px ;
     align-items: center;
     position: sticky;
     top: 0;
@@ -106,8 +105,14 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: #3D2DA6; 
+}
+
+nav a:focus {
+    text-decoration: underline;
     color: #3D2DA6;
 }
+
 
 /*FICHIER ACCUEIL*/
 /*css du hero */
@@ -125,14 +130,14 @@ img[alt="Pantherhome1"]{
 }
 .in1 {
     flex: 1 ;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 .bp1{
 
 height: 500px;
 width: 400px;
-margin-left: 50px;
+margin-left: 100px;
 }
 
 .bp1 p, .bp1 a {
@@ -142,6 +147,39 @@ margin-left: 50px;
 .bp2{
     height: 600px;
 }
+
+header {
+    
+    position: relative;
+}
+
+.test1{
+    position: absolute;
+    border: 3px solid #9E91B7;
+    border-top:none ;
+    border-bottom: none;
+    height:250px ;
+    width:27px;
+    top: 0;
+    left: 30px;
+}
+.test2{
+    position: absolute;
+    border: 3px solid #9E91B7;
+    border-top:none ;
+    border-bottom: none;
+    border-right: none;
+    height:100px ;
+    width:40px;
+    top:250px ;
+    left: 30px;
+    background: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_facebook.png) no-repeat top right,
+    url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_instagram.png) no-repeat  right 25px,
+    url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_twitter.png) no-repeat right 50px,
+    url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_tiktok.png) no-repeat right 75px ;
+      
+}
+
 
 /*css des cartes de heros */
 
