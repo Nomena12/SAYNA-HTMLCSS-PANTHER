@@ -113,7 +113,9 @@ nav a:focus {
     color: #3D2DA6;
 }
 
-
+img[class="logo"]:hover  {
+    filter: opacity(0.4) drop-shadow(0 0 0 #3D2DA6);
+}
 
 
 
@@ -158,8 +160,22 @@ header {
     position: relative;
 }
 
-.test1{
+/*.stuck {
+    border: 2px solid white;
+    width: 45px ;
+    position: sticky;
+    top: 0px;
+}
+
+.stuckout {
+    border: 2px solid white;
+    width: 48px ;
     position: absolute;
+    top: 0px;
+} */
+
+.test1{
+    position: absolute ;
     border: 3px solid #9E91B7;
     border-top:none ;
     border-bottom: none;
@@ -458,6 +474,26 @@ img[alt="footer2"]{
    left: 250px;
 
 }  
+
+.out a:nth-of-type(1){
+    text-decoration: none;
+}
+
+.out a:nth-of-type(1):hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.out a:nth-of-type(2){
+    text-decoration: none;
+}
+
+.out a:nth-of-type(2):hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
 
 
 /*FICHIER WAKANDA */
